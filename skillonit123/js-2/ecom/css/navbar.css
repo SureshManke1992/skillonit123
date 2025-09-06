@@ -1,0 +1,17 @@
+     nav{
+            /* border: 2px solid; */
+            box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+            padding: 5px;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+
+        span{
+            width: 400px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }

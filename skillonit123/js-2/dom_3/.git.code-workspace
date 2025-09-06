@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../.git"
+		},
+		{
+			"path": "../../../CSS"
+		},
+		{
+			"path": "../../../HTML"
+		},
+		{
+			"path": "../../../javascript"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "skillonit123"
+	}
+}
