@@ -46,7 +46,13 @@ product.map(function(el){
     let cartbtn =document.createElement("button")
     cartbtn.innerText = "Add to Cart"
     cartbtn.addEventListener("click",function(){
-        addcartfun(el)
+        let alredyInCart = false;
+        for (let i=0;i<cart_arr.lenght;i++){
+            if (cart_arr[i].id==el.id){
+                alredyInCart= true;
+                break;
+            }
+        }
     })
 
     let div = document.createElement("div")
@@ -66,6 +72,7 @@ function addcartfun(data){
     })
 
     if(flag){
+        windw
          alert("prodact is already added")
         
     }else{
